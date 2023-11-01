@@ -19,8 +19,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('dashborad', function () {
-    return view('dashborad');
+Route::get('index2', function () {
+    return view('index2');
 });
 
 Route::get('index', function () {
