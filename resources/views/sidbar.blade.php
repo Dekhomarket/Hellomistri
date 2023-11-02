@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   
+
         <!-- Sidebar Start -->
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-secondary navbar-dark">
@@ -24,7 +16,18 @@
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a href="index-2.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="{{url('dashborad')}}" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="{{url('garph_view')}}" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Garph_view</a>
+                    <!-- <a href="{{url('user')}}" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>User</a>
+                    <a href="{{url('add_user')}}" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Add User</a> -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>User</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="{{url('add-user')}}" class="dropdown-item"> AddUser</a>
+                            <a href="{{url('user-details')}}" class="dropdown-item">User details </a>
+                         
+                        </div>
+                    </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Elements</a>
                         <div class="dropdown-menu bg-transparent border-0">
@@ -50,5 +53,3 @@
             </nav>
         </div>
         <!-- Sidebar End --> 
-</body>
-</html>

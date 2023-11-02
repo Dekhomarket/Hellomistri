@@ -35,3 +35,11 @@ Route::get('master', function () {
     return view('master');
     
 });
+Route::get('add-user', function () {
+    return view('add-user');
+    
+});
+Route::get('user-details', function () {
+    return view('user-details');
+    
+});
