@@ -1,6 +1,6 @@
 
-@include('master'); 
-@section('content')
+@extends('master')
+@Section('content')
 <div class="container-fluid pt-4 px-4">
                 <div class="row g-4">
                     <div class="col-sm-6 col-xl-3">
@@ -41,4 +41,4 @@
                     </div>
                 </div>
             </div>
-            @endsection
+@endSection

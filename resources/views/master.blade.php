@@ -47,7 +47,7 @@
 
 
         <!-- Sidebar Start -->
-      @include('sidbar');
+      @include('sidbar')
         <!-- Sidebar End -->
 
 
@@ -166,7 +166,7 @@
 
 
             <!-- Footer Start -->
-      @include('footer');
+      @include('footer')
 
             <!-- Footer End -->
         </div>
