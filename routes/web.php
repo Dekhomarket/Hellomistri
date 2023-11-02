@@ -19,10 +19,19 @@ Route::get('/', function () {
 });
 
 
-Route::get('index2', function () {
-    return view('index2');
+
+
+Route::get('dashborad', function () {
+    return view('dashborad');
+    
 });
 
-Route::get('index', function () {
-    return view('index');
+Route::get('garph_view', function () {
+    return view('garph_view');
+    
+});
+
+Route::get('master', function () {
+    return view('master');
+    
 });
